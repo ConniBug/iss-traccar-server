@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm install && npm test && node index.js"
+    "start": "npm install && npm test && node index.js",
+    "test": "echo N/A
   },
   "keywords": [],
   "author": "Conni!~#0920",
