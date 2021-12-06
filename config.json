@@ -6,5 +6,5 @@
     "iss_id": ""
   },
   "liveDataUrl": "https://api.wheretheiss.at/v1/satellites/25544",
-  "logLevel": "VERBOSE"
+  "logLevel": "WARNING"
 }
