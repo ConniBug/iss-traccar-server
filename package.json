@@ -1,0 +1,16 @@
+{
+  "name": "IIS-Tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install && npm test && node index.js"
+  },
+  "keywords": [],
+  "author": "Conni!~#0920",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "@connibug/js-logging": "^1.1.6",
+    "request": "^2.88.2"
+  }
+}
