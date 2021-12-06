@@ -1,0 +1,10 @@
+{
+  "traccar": {
+    "protocal": "",
+    "hostname": "",
+    "port": "5055",
+    "iss_id": ""
+  },
+  "liveDataUrl": "https://api.wheretheiss.at/v1/satellites/25544",
+  "logLevel": "VERBOSE"
+}
