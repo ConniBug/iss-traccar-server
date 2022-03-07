@@ -1,6 +1,6 @@
 {
   "traccar": {
-    "protocal": "",
+    "protocol": "",
     "hostname": "",
     "port": "5055",
     "iss_id": ""
