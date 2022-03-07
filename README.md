@@ -1,7 +1,9 @@
-# iss-traccar-server
+# ISS Traccar Server
 
+Created for [Traccar](https://www.traccar.org).
+<br>
 Node JS Bot for monitoring the International Space Station and displaying the position relative to the earth on your Traccar Map
-
+<br>
 
 ## Configuration
 
