@@ -3,7 +3,7 @@
     "protocol": "",
     "hostname": "",
     "port": "5055",
-    "iss_id": ""
+    "iss_id": "12345"
   },
   "liveDataUrl": "https://api.wheretheiss.at/v1/satellites/25544",
   "logLevel": "WARNING",
