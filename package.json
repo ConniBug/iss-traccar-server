@@ -1,11 +1,11 @@
 {
   "name": "IIS-Tracker",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.02.0",
+  "description": "Node JS Bot for monitoring the International Space Station and displaying the position relative to the earth on your Traccar Map",
   "main": "index.js",
   "scripts": {
     "start": "npm install && npm test && node index.js",
-    "test": "echo N/A"
+    "test": "echo No tests specified."
   },
   "keywords": [],
   "author": "Conni!~#0920",
