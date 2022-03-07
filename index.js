@@ -26,8 +26,10 @@ function handleISSResponseData(error, response, body) {
   location_history.push(body);
   l.debug("Pushed: lat-" + body.latitude + "- long-" + body.longitude + "- alt-" + body.altitude + "- velocity-" + parseInt(body.velocity) * 1.852);
 
-  const url = `${config.traccar.protocal}://${config.traccar.hostname}:${config.traccar.port}`;
+  const url = `${config.traccar.protocol}://${config.traccar.hostname}:${config.traccar.port}`;
   l.verbose("Sending data to traccar.");
+  
+  // Build URL sending data to Traccar Server.
   request(`${url}/?id=${config.traccar.iss_id}&lat=${body.latitude}&lon=${body.longitude}&timestamp=${body.timestamp}&hdop=100&altitude=${body.altitude}&speed=${parseInt(body.velocity) * 1.852}`, traccarResponce);
   l.verbose(`${url}/?id=${config.traccar.iss_id}&lat=${body.latitude}&lon=${body.longitude}&timestamp=${body.timestamp}&hdop=100&altitude=${body.altitude}&speed=${parseInt(body.velocity) * 1.852}`)
 }
@@ -42,6 +44,6 @@ l.verbose("Starting tracking.");
 processISSLocation();
 const interval = setInterval(function() {
   processISSLocation();
-}, 1000);
+}, config.timeBetweenLocationChecks);
 
 
